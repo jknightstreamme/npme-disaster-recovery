@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/jknightstreamme/npme-disaster-recovery/issues"
   },
-  "homepage": "https://github.com/jknightstreamme/npme-disaster-recovery#readme"
+  "homepage": "https://github.com/jknightstreamme/npme-disaster-recovery#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "glob": "^7.1.1",
+    "npm-cli-login": "0.0.10",
+    "path": "^0.12.7",
+    "tar": "^2.2.1",
+    "targz": "^1.0.1",
+    "tmp": "0.0.31"
+  }
 }
