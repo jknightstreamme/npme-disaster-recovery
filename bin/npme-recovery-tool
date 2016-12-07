@@ -1,1 +1,17 @@
-console.log("howdy");
+#!/usr/bin/env node
+
+var app = require('commander');
+var loggerr = require('loggerr');
+
+
+app.option('-t, --test', 'This is a test option.');
+app.parse(process.argv);
+
+
+var log = new loggerr({
+    level: loggerr.DEBUG,
+    formatter: require('loggerr/formatters/cli')
+});
+
+
+log.info('hello npme tool!');
