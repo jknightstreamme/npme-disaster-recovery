@@ -1,0 +1,25 @@
+{
+  "name": "npme-disaster-recovery",
+  "version": "0.0.1",
+  "description": "NPMe tool for republishing npm packages from one repo to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jknightstreamme/npme-disaster-recovery.git"
+  },
+  "keywords": [
+    "npme",
+    "package-management",
+    "recovery",
+    "backup"
+  ],
+  "author": "Joe Knight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jknightstreamme/npme-disaster-recovery/issues"
+  },
+  "homepage": "https://github.com/jknightstreamme/npme-disaster-recovery#readme"
+}
